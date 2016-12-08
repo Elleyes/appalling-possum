@@ -29,9 +29,22 @@ ALGORITHMS Foundational Project with Elle and Greg
 
 ### ES6 Stretch Specs
 
-- [ ] History of JavaScript
-- [ ] Proper Tail Calls, Declarations, and Rest Parameters
-- [ ] Spread Operator, Destructuring, and Arrow Functions
-- [ ] Default Parameters, Classes, and Collections
-- [ ] Modules, Promises, and Generators
-- [ ] Build Tools
+- [ ] JavaScript Timeline
+      1995 EcmaScript | JavaScript
+      2003 ES3 (Netscape ends)
+      2006 ES3.1 (ES3.1 v ES4 = ES gap)
+      2009 ES5
+      2015 ES6     
+- [ ] Proper Tail Calls, 
+- [ ] LET, CONST, and Block Declarations
+- [ ] Rest Parameters
+- [ ] Spread Operator
+- [ ] Destructuring
+- [ ] Arrow Functions
+- [ ] Default Parameters
+- [ ] Classes
+- [ ] Collections
+- [ ] Modules
+- [ ] Promises
+- [ ] Generators (?)
+- [ ] Build Tools (?)
