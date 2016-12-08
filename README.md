@@ -30,11 +30,7 @@ ALGORITHMS Foundational Project with Elle and Greg
 ### ES6 Stretch Specs
 
 - [ ] JavaScript Timeline
-      1995 EcmaScript | JavaScript
-      2003 ES3 (Netscape ends)
-      2006 ES3.1 (ES3.1 v ES4 = ES gap)
-      2009 ES5
-      2015 ES6     
+     |1995 EcmaScript | JavaScript | 2003 ES3 | 2006 ES3.1 | 2009 ES5 | 2015 ES6 |
 - [ ] Proper Tail Calls, 
 - [ ] LET, CONST, and Block Declarations
 - [ ] Rest Parameters
