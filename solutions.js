@@ -215,6 +215,9 @@ function truncateString(str, num) {
 
 truncateString("A-tisket a-tasket A green and yellow basket", 11);
 
+// This exercise requies using an "if" clause. It also needs string concatenation.
+// You'll do a little math with the string length and 
+// also use substring().
 ===============================================================================
 Chunky Monkey:
 
@@ -247,6 +250,12 @@ function chunkArrayInGroups(arr, size) {
 
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
 
+// This exercise requires manipulating a 2 level data structure.
+// In this case, an array containing arrays.
+// That means it will need at least one loop, but possibly 2 nested loops.
+// The split function won't help you here, but the slice() function will.
+// And finally, you'll be instoroduced to using an array like a stack
+// by using the push() function.
 ===============================================================================
 Slasher Flick | NO ES6 | :
 
@@ -257,6 +266,11 @@ function slasher(arr, howMany) {
 
 slasher([1, 2, 3], 2);
 
+// This is removing things from the start, instead of removing them from the end
+// like we did with truncate.
+// We're also working with an array here instead of a string.
+// So you'll use array manipulation functions splice() or splice().
+// YOu just need to understand how to provide the right arguments to those functions.
 ===============================================================================
 Mutations:
 
@@ -282,6 +296,11 @@ function mutation(arr) {
 
 mutation(["hello", "hey"]);
 
+// This requires building and using a "set". javascript provides
+// no native "set" feature. But you can fake it by using various means.
+// You might build an array to act as a "set", or use an object.
+// Or you might use a combination of sorting, and filtering unique characters.
+// A loop is probably required as well.
 ===============================================================================
 Falsy Bouncer | NO ES6 | :
 
@@ -290,6 +309,9 @@ function bouncer(arr) {
   return arr.filter(Boolean);
 }
 
+// Requires "if" statements, and what a "falsy" value means/does.
+// You'll use filter, to copy an array.
+// You might provide an anonymous function to filter().
 ===============================================================================
 Seek and Destroy:
 
@@ -315,6 +337,9 @@ function destroyer(arr) {
 
 destroyer([1, 2, 3, 1, 2, 3], 2, 3);
 
+// this uses a variadric function arguments.
+// a loop or filter to process an array.
+// possibly an anonymous function to that filter().
 ===============================================================================
 Where do I Belong | NO ES6 | :
 
@@ -333,6 +358,9 @@ function getIndexToIns(arr, num) {
 
 getIndexToIns([40, 60], 50);
 
+// this requires using sort() to sort an array, 
+// then looping over the array and using comparison operators
+// while tracking the index in the array your dealing with.
 ===============================================================================
 Caesers Cipher:
 
@@ -356,5 +384,8 @@ function rot13(str) {
     }).join('');  // Rejoin the array into a string
 }
 
-
+// This requires understanding a little about ascii characters
+// or how the computer uses numbers to represent letters. charCodeAt() and fromCharCode()
+// A little math will be needed including the use of a modulus (the % operator).
+// A loop or map() can be used to modify all the elements in the array.
 
